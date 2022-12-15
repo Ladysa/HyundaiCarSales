@@ -1,0 +1,135 @@
+@font-face {
+    font-family: open-r;
+    src: url('../Font/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: open-b;
+    src: url('../Font/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: open-l;
+    src: url('../Font/OpenSans-Light.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    background-image: url('../Asset/Image/Heading.jpg');
+    background-size: cover;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.bold{
+    font-family: open-b;
+}
+.reg{
+    font-family: open-r;
+}
+.light{
+    font-family: open-l;
+}
+.logo{
+    width: 20vw;
+    padding: 1vw;
+    margin-right: 15vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    text-decoration: none;
+    font-family: open-r;
+    font-size: 2vw;
+    color: black;
+}
+.nav:hover{
+    font-family: open-b;
+}
+.vehicle-card{
+    padding-top: 7vw;
+}
+.title-page{
+    display: flex;
+    background-image: url('../Asset/Image/Subheading.jpg');
+    background-size: cover;
+    font-family: open-b;
+    font-size: 5vw;
+    color: white;
+    justify-content: center;
+    padding: 3vw 0vw;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../Asset/Image/Background.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+.gallery-box{
+    margin-top: 5vw;
+    display: flex;
+    box-shadow: 1vw 1vw 1vw lightgray;
+    width: 90vw;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    background-image: url('../Asset/Image/Background.jpg');
+    background-size: cover;
+}
+.grid-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.color{
+    margin: 3vw 0;
+    font-family: open-r;
+    width: 45vw;
+    font-size: 2vw;
+}
+.grid-img{
+    width: 43vw;
+    box-shadow: 1vw 1vw 1vw lightgray;
+    margin-bottom: 5vw;
+    margin: -1vw 2vw 5vw 2vw;
+    padding: none;
+}
+.backtotop{
+    display: flex;
+    background-color: #002C5F;
+    font-family: open-b;
+    font-size: 3vw;
+    justify-content: center;
+    padding: 3vw 0vw;
+    text-decoration: none;
+    color: white;
+}
+.navtopbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    background-image: url('../Asset/Image/Heading.jpg');
+    background-size: cover;
+}
+.copyright{
+    font-family: open-b;
+    font-size: 2vw;
+    padding-top: 2vw;
+    padding-left: 25vw;
+}
