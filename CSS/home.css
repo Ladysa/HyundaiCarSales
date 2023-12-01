@@ -39,12 +39,13 @@ body{
 .logo{
     width: 20vw;
     padding: 1vw;
-    margin-right: 15vw;
+    margin-right: 10vw;
 }
 .navbar{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-right: 3vw;
 }
 .nav{
     text-decoration: none;
@@ -74,7 +75,7 @@ body{
 }
 .slide-frame{
     width: 100vw;
-    height: 50vw;
+    height: 55vw;
     overflow: hidden;
 }
 .slide-in{
@@ -114,8 +115,13 @@ body{
     background-color: white;
     margin: 5vw;
     display: flex;
+    flex-direction: column;
     box-shadow: 1vw 1vw 1vw lightgray;
     padding: 5vw;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
 }
 .contact-left{
     display: flex;
@@ -189,10 +195,20 @@ body{
     font-family: open-b;
     font-size: 2vw;
 }
+.loc-icon{
+    width: 4vw;
+    height: fit-content;
+    margin-left: -0.5vw;
+    margin-right: 2vw;
+}
+.loc-text{
+    font-family: open-l;
+    font-size: 2vw;
+}
 .map{
     padding-left: 3vw;
     padding-top: 1vw;
-    width: 40vw;
+    width: 72vw;
 }
 .title{
     display: flex;
@@ -283,7 +299,11 @@ body{
     background-image: url('../Asset/Image/Background.jpg');
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+.promo-container{
+    display: flex;
 }
 .promobox{
     background-color: white;
